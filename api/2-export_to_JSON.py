@@ -24,7 +24,7 @@ def get_api():
                     'username': usr.get('username')
                     }
             obj[uid].append(tmp_obj)
-        # serialize object into a JSON stream
+        # serialize object into a JSON string
         json.dump(obj, file)
 
 
